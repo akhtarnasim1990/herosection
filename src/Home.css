@@ -1,0 +1,231 @@
+.herosection_main_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.herosection_main_container .herosection_content {
+  width: 80%;
+  margin: 0.5% 0;
+  border: 1px solid rgb(232, 234, 237);
+  border-radius: 20px;
+  position: relative;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.herosection_main_container .herosection_content .herosection_relative_div {
+  width: 30%;
+  height: 99%;
+  position: absolute;
+  top: 0.5%;
+  right: 0.25%;
+  z-index: -1;
+}
+
+.herosection_main_container .herosection_content .herosection_relative_div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.herosection_main_container .herosection_content .herosection_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 24px;
+}
+
+.herosection_main_container .herosection_content .herosection_header .navbar {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: min-content;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.herosection_main_container .herosection_content .herosection_header .navbar .navigation {
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 6px 16px;
+  position: relative;
+  text-decoration: none;
+  width: min-content;
+}
+.herosection_main_container .herosection_content .herosection_header .buttons {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.herosection_main_container .herosection_content .herosection_header .buttons .login_btn {
+  background-color: #000;
+  color: #fff;
+  flex-wrap: nowrap;
+  padding: 10px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.herosection_main_container .herosection_content .herosection_body {
+  display: flex;
+  width: 80%;
+  margin: 10% 10% 0;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_upper {
+  display: flex;
+  flex-direction: column;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_upper .financial_btn {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding: 10px 16px;
+  color: rgb(14, 14, 17);
+  border-radius: 999px;
+  border: 1px solid rgb(14, 14, 17);
+  display: flex;
+  align-items: flex-start;
+  width: fit-content;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  margin-bottom: 3%;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_upper .herosection_title h1 {
+  font-size: 88px;
+  font-family: "Aventa-Bold ", "Aventa-Bold  Placeholder", sans-serif;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_upper .herosection_title p {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin: 2% 0;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_lower {
+  display: flex;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .apple_store_btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 999px;
+  padding: 14px 20px 14px 16px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .apple_store_btn .apple_logo {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .users_and_count {
+  display: flex;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .users_and_count .users_div {
+  display: flex;
+  margin-right: 40px;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .users_and_count .users_div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0.5px solid #000;
+  margin-right: -10px;
+}
+
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .users_and_count .count_div {
+  display: flex;
+  flex-direction: column;
+}
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .users_and_count .count_div div:first-child {
+  font-size: 14px;
+  font-weight: 600;
+}
+.herosection_main_container .herosection_content .herosection_body .left .left_lower .users_and_count .count_div div:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.herosection_main_container .herosection_content .herosection_body .right {
+  position: relative;
+}
+
+.herosection_main_container .herosection_content .herosection_body .right img {
+  width: 80%;
+  animation: rotateAndScale 2ms 1;
+  transform: perspective(1200px);
+  transform-style: preserve-3d;
+}
+
+@keyframes rotateAndScale {
+  0% {
+    opacity: 0.5;
+    transform: translateY(1500px) rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotateX(0deg);
+  }
+}
+
+.herosection_main_container .herosection_content .herosection_body .right .linear {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 100px;
+  /* background-color: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); */
+  background-color: #fff;
+  /* opacity: 0.2; */
+  filter: blur(50px);
+  /* box-shadow: 20px 20px 50px #00d2c6, -30px -30px 60px #00ffff; */
+}
